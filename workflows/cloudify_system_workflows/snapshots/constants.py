@@ -46,11 +46,14 @@ MANAGER_PYTHON = '/opt/manager/env/bin/python'
 COMPOSER_BASE_FOLDER = '/opt/cloudify-composer'
 COMPOSER_CONFIG_FOLDER = 'backend/conf'
 COMPOSER_BLUEPRINTS_FOLDER = 'backend/dev'
+SECURITY_FILE_LOCATION = '/opt/manager/rest-security.conf'
+SECURITY_FILENAME = 'rest-security.conf'
 
 V_4_0_0 = ManagerVersion('4.0.0')
 V_4_1_0 = ManagerVersion('4.1.0')
 V_4_2_0 = ManagerVersion('4.2.0')
 V_4_3_0 = ManagerVersion('4.3.0')
+V_4_4_0 = ManagerVersion('4.4.0')
 
 
 class VisibilityState(object):
